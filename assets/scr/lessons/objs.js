@@ -13,7 +13,9 @@ const user = {
   name: "Ina",
   age: 22,
   greet() {
+    // adding method in the object
     console.log("Fuku");
+    console.log(this.age);
   },
 };
 
@@ -25,3 +27,5 @@ console.log(user.age);
 
 // calling the object
 user.greet();
+
+// Creating class
