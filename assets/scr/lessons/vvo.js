@@ -17,5 +17,9 @@ console.log("HelloPany");
 1. Variable 1st letter cant be a number
 */
 
-let message = "howAreYou";
+const message = "howAreYou";
+console.log(message);
+
+console.log(message);
+
 console.log(message);
