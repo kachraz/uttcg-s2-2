@@ -29,3 +29,17 @@ console.log(user.age);
 user.greet();
 
 // Creating class
+
+class User {
+  constructor(name, age) {
+    this.namne = name;
+    this.age = age;
+  }
+  greet() {
+    console.log("Fukr This is class");
+  }
+}
+
+const user1 = new User("Panty", "23");
+console.log(user1);
+user1.greet();
