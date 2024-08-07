@@ -18,3 +18,5 @@ const hoii = content.map((i) => ({
   text: "item",
 }));
 console.log(hoii);
+
+console.log("Thsi is a tester text");
