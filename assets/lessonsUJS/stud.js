@@ -78,3 +78,8 @@ console.log(`
 Original Array  = ${arr2}
 Reversed Array  = ${arR3}
 `);
+
+// concat method
+wr11("Concat they array");
+const letter1 = arR3.concat(arr);
+console.log(letter1);
