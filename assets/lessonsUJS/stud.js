@@ -56,3 +56,10 @@ console.log(ars31);
 wr11("Creating a shadow copy");
 ars4 = arr.slice();
 console.log(ars4.slice());
+
+// Splice method - Mutates the array
+arSp1 = arr.slice();
+wr11("Splicing");
+console.log(arSp1.splice(-3));
+console.log(`Printing the original array`);
+console.log(arSp1);
