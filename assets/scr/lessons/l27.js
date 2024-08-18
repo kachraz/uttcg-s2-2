@@ -35,5 +35,5 @@ Actual Testing here
 const hob1 = ["Sports", "cooking"];
 
 for (const h of hob1) {
-  console.log(h.);
+  console.log(h);
 }

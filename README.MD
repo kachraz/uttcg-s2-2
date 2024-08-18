@@ -70,3 +70,9 @@ pnpm start
 ```
 
 - This uses pnpm as pkgmanager
+
+# update
+
+`Sun Aug 18 01:19:32 AM UTC 2024`
+
+- This date restarted after break of 10 days or so
