@@ -88,3 +88,5 @@ console.log(letter1);
 wr11("Using the spread operator");
 let conc1 = arR3.concat(arr);
 console.log([...arr, ...conc1]);
+wr11("Using join operator");
+console.log(conc1.join(" * "));
