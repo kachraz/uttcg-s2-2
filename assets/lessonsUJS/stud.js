@@ -83,3 +83,8 @@ Reversed Array  = ${arR3}
 wr11("Concat they array");
 const letter1 = arR3.concat(arr);
 console.log(letter1);
+
+// above operation can be done with spread oprator
+wr11("Using the spread operator");
+let conc1 = arR3.concat(arr);
+console.log([...arr, ...conc1]);
