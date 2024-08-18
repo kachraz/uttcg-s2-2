@@ -63,3 +63,18 @@ wr11("Splicing");
 console.log(arSp1.splice(-3));
 console.log(`Printing the original array`);
 console.log(arSp1);
+
+// Most common is to remove the last element
+// Without beginning and end params
+
+// Reverse the array - Note use meaningful names
+// Mutates the array
+let arr2 = ["a", "b", "c"];
+let arR2 = arr2.slice();
+let arR3 = arR2.reverse();
+
+wr11("Reversing the array");
+console.log(`
+Original Array  = ${arr2}
+Reversed Array  = ${arR3}
+`);
