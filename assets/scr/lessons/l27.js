@@ -20,12 +20,20 @@ Actual Testing here
 `);
 
 // WebApi prompt
-const pwd = prompt("WRite Pwd");
+// const pwd = prompt("WRite Pwd");
 
-if (pwd === "Hi") {
-  alert("Right");
-} else if (pwd === "hi") {
-  alert("▶️ ALMOST");
-} else {
-  alert("😡😡😡");
+// if (pwd === "Hi") {
+//   alert("Right");
+// } else if (pwd === "hi") {
+//   alert("▶️ ALMOST");
+// } else {
+//   alert("😡😡😡");
+// }
+
+// For loop
+
+const hob1 = ["Sports", "cooking"];
+
+for (const h of hob1) {
+  console.log(h.);
 }
