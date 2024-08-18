@@ -35,4 +35,8 @@ wr11("Working with set");
 const cuU1 = new Set(["ADA", "BTC", "XMR", "ADA"]);
 console.log(cuU1);
 
-// Calling for each method
+// Calling for each method -
+// Sets has no keys and indexes
+cuU1.forEach(function (v, k, m) {
+  console.log(`${k} : ${v}`);
+});
