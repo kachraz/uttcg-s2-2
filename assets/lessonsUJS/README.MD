@@ -6,3 +6,6 @@ Arrays are the most common use data strucutre , all learning will be done here
 
 1. Arays are the most used and react also will start using
 2. Need to know which method mutates the array
+3. ForEachLoop
+   - There is no break statement
+   - If needed break then use the stadard for loop

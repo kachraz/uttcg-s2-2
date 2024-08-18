@@ -43,6 +43,7 @@ wr11("Using Counter");
 //   }
 // }
 
+// For each method gives you the counter , and the whole array
 wr11("Using Counter - Using For each method");
 mvm1.forEach(function (m, i, a) {
   if (m > 0) {
