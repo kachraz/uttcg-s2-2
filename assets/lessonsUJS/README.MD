@@ -9,3 +9,8 @@ Arrays are the most common use data strucutre , all learning will be done here
 3. ForEachLoop
    - There is no break statement
    - If needed break then use the stadard for loop
+4. Maps, Filter and Reduce
+   - used a lot
+   - makes a new array - It is more popular than foreach method
+   - Filter - Filters elements in the original array
+   - reduce - Boil down elements into one single array
