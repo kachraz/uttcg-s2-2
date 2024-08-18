@@ -76,3 +76,8 @@ pnpm start
 `Sun Aug 18 01:19:32 AM UTC 2024`
 
 - This date restarted after break of 10 days or so
+
+# [`lessonUJS`](./assets/lessonsUJS/) - Lessons from the JS cursa
+
+- Those will be in this folder
+- Required to have a grasp of arrays in JS
