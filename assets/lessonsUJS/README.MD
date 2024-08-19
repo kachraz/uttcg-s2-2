@@ -14,3 +14,4 @@ Arrays are the most common use data strucutre , all learning will be done here
    - makes a new array - It is more popular than foreach method
    - Filter - Filters elements in the original array
    - reduce - Boil down elements into one single array
+     - Has an accumulator variable on which operation is performedData
