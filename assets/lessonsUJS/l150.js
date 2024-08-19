@@ -61,8 +61,23 @@ const mvm1 = [200, 450, -400, 3000, -650, -130, 20, 130, 267, 300];
 // const dep2 = mvm1.filter((m) => m > 0);
 // console.log(dep2);
 
-wr11("Reduce method");
-const oneReducedValue = mvm1.reduce(
-  (accumulator, movements, index, array) => accumulator + movements
-);
-console.log(oneReducedValue);
+// wr11("Reduce method");
+
+// /*
+// accumulator will collect all the values by performing the action
+// on every element of the array , and the 1000 is the initial value
+// */
+
+// const oneReducedValue = mvm1.reduce(
+//   (accumulator, movements, index, array) => accumulator + movements,
+//   1000
+// );
+// console.log(oneReducedValue);
+
+wr11("Chaining Array Methods");
+
+const cha1 = mvm1
+  .filter((m) => m > 0)
+  .map((m) => m * 1.4)
+  .reduce((a, m) => a * m);
+console.log(cha1);
