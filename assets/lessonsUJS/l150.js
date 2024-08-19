@@ -76,8 +76,10 @@ const mvm1 = [200, 450, -400, 3000, -650, -130, 20, 130, 267, 300];
 
 wr11("Chaining Array Methods");
 
+// Chaining will work only when the first operation
+// Also returns an array
 const cha1 = mvm1
   .filter((m) => m > 0)
-  .map((m) => m * 1.4)
+  .map((m) => m * 1.012544)
   .reduce((a, m) => a * m);
 console.log(cha1);
