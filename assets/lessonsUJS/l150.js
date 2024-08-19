@@ -46,17 +46,23 @@ const mvm1 = [200, 450, -400, 3000, -650, -130, 20, 130, 267, 300];
 // console.log(mvDesc);
 
 // Working with filter
-wr11("Filter method");
-console.log("Movements Array");
-console.log(mvm1);
+// wr11("Filter method");
+// console.log("Movements Array");
+// console.log(mvm1);
 
-wr11("Filter with foreach method");
-const dep = mvm1.filter(function (m) {
-  return m > 0;
-});
-console.log(dep);
+// wr11("Filter with foreach method");
+// const dep = mvm1.filter(function (m) {
+//   return m > 0;
+// });
+// console.log(dep);
 
 // wRITE ABOVE as an arrow function
-console.log("Writing the above function as an arrow function");
-const dep2 = mvm1.filter((m) => m > 0);
-console.log(dep2);
+// console.log("Writing the above function as an arrow function");
+// const dep2 = mvm1.filter((m) => m > 0);
+// console.log(dep2);
+
+wr11("Reduce method");
+const oneReducedValue = mvm1.reduce(
+  (accumulator, movements, index, array) => accumulator + movements
+);
+console.log(oneReducedValue);
