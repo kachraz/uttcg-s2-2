@@ -74,12 +74,36 @@ const mvm1 = [200, 450, -400, 3000, -650, -130, 20, 130, 267, 300];
 // );
 // console.log(oneReducedValue);
 
-wr11("Chaining Array Methods");
+// wr11("Chaining Array Methods");
 
-// Chaining will work only when the first operation
-// Also returns an array
-const cha1 = mvm1
-  .filter((m) => m > 0)
-  .map((m) => m * 1.012544)
-  .reduce((a, m) => a * m);
-console.log(cha1);
+// // Chaining will work only when the first operation
+// // Also returns an array
+// const cha1 = mvm1
+//   .filter((m) => m > 0)
+//   .map((m) => m * 1.012544)
+//   .reduce((a, m) => a * m);
+// console.log(cha1);
+
+wr11("Sorting Arrays");
+
+console.log(mvm1);
+//sorting the array with the array methods
+// Causes mutation - Warnign
+// Sorting works on strings - then does sorting
+console.log(mvm1.sort());
+
+// if want to sort by numbers
+
+let mvm2 = [-200, 122, 9, 0];
+let mvm2s = mvm2.sort();
+console.log(mvm2);
+console.log(mvm2s);
+
+console.log(" Sorting numbers ");
+let mvm3 = mvm2.sort((a, b) => a + b); // is ascending
+let mvm4 = mvm3.sort((a, b) => a - b); // is ascending
+
+console.log(`
+Ascending = ${mvm3}
+Desc = ${mvm4}
+`);
