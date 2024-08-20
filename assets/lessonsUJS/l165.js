@@ -21,3 +21,7 @@ More array Methods
 // Using constructor
 let mr1 = new Array(2, 4, 5, 6);
 console.log(mr1);
+
+// Generating arrays automatically
+let mr2 = new Array(7); // Creati ng an empty array with 7 position
+console.log(mr2);
